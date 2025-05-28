@@ -1,3 +1,5 @@
+import fecha.Fecha;
+
 public class Vendedores extends Empleado{
     protected long telfonoEmpr;
     protected Auto val;
@@ -7,6 +9,7 @@ public class Vendedores extends Empleado{
         this.telfonoEmpr = telfonoEmpr;
         this.val = val;
     }
+    
     public String toString(){
         String cadena = "";
         cadena += super.toString() + " Tel Empresarial:" + this.telfonoEmpr + " Auto:" + this.val.toString();

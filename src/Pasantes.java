@@ -1,3 +1,5 @@
+import fecha.Fecha;
+
 public class Pasantes extends Empleado{
     protected boolean formaParte;
 

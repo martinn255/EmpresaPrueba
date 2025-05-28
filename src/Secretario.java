@@ -1,3 +1,5 @@
+import fecha.Fecha;
+
 public class  Secretario extends Empleado{
     protected String despacho;
     protected int fax;

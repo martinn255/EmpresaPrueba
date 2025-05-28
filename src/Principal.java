@@ -1,3 +1,5 @@
+import fecha.Fecha;
+
 public class Principal {
     public static void main(String[] args) {
         Fecha val = new Fecha(20,6,2003);

@@ -1,3 +1,5 @@
+import fecha.Fecha;
+
 public class Empleado {
     protected String nombre;
     protected long dni;
